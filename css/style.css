@@ -26,6 +26,8 @@ a {
 a:hover {
 	opacity: .8;
 }
+/**********/
+
 
 /* Header */
 header {
@@ -33,10 +35,8 @@ header {
 }
 
 header .header_info {
-	margin: -13px 0 0 0;
-	position: absolute;
-	top: 100px;
-	right: 150px;
+	margin: 50px 0 0 0;
+	float:right;
 }
 
 header .social_media ul {
@@ -79,13 +79,12 @@ header .header_info_text {
 	line-height: 30px;
 	text-align: right;
 }
-
-
+/**********/
 
 
 /* Navigation */
 #navigation {
-	border: 3px solid #c6a93a;
+	border-top: 3px solid #c6a93a;
 	border-bottom-width: 0;
 }
 
@@ -108,4 +107,36 @@ header .header_info_text {
 	line-height: 46px;
 	padding: 0 22px;
 	text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+
+}
+
+footer .copyright {
+	margin: 2.5em 1em;
+}
+
+footer .copyright p {
+	margin-bottom: 0;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+}
+
+footer .footer_nav {
+	margin: 0 auto;
+	margin-top: -10px;
+	text-align: center;
+}
+
+footer .footer_nav_inner a {
+	color: #fff;
+/*	font-family: Georgia,serif;
+	font-style: italic;
+	font-weight: bold;*/
+	padding: 10px;
 }

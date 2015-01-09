@@ -10,6 +10,57 @@ body {
 	width: 960px;
 }
 
+.clear {
+	clear: both;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #c6a93a;
+}
+
+/* Header */
+header {
+	height: 265px;
+}
+header .header_info {
+	margin: -13px 0 0 0;
+	position: absolute;
+	top: 25%;
+	right: 150px;
+}
+
+header .social_media ul {
+	float: right;
+	margin: 0;
+}
+
+header .social_media li {
+	float: left;
+	list-style: none;
+	padding: 1px;
+}
+
+header .social_media li a {
+	-moz-opacity: .8;
+	-khtml-opacity: .8;
+	opacity: .8;
+	margin-right: 1px;
+	/*background-image: ;*/
+}
+
+header .header_info_text {
+	line-height: 30px;
+	text-align: right;
+}
+
+
+
+
 /* Navigation */
 #navigation {
 	border: 1px solid #d1d1d1;

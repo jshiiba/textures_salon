@@ -195,9 +195,9 @@ footer .footer_nav_inner a {
 	background: #000;
 }
 
-.bottom_inner_content {
-	padding: 1.5em;
-	margin-top: 20px;
+.nav_table_content {
+	margin-top: -50px;
+	padding: 1em;
 	height: auto;
 	background: #000;
 }
@@ -209,15 +209,21 @@ footer .footer_nav_inner a {
 .nav_table_cell {
 	font-weight: normal;
 	text-align: left;
-	padding: 10px;
+	padding: 15px;
 }
 
 .nav_table_div {
 	text-align: center;
 }
 
+.nav_table .img_placeholder {
+	border: 2px solid #c6a93a;
+	width: 175px;
+	height: 175px;
+}
+
 .nav_table img {
-	border: 0px none;
+	border: 1px solid #c6a93a;
 	width: 175px;
 	height: 175px;
 }

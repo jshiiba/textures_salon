@@ -239,11 +239,12 @@ footer .footer_nav_inner a {
 	float: right;
 	width: 300px;
 	height: auto;
+	border-left:2px solid #c6a93a;
 }
 
 .sidebar_section {
 	background: #000;
-	border-left:2px solid #c6a93a;
+	/*border-left:2px solid #c6a93a;*/
 	height: auto;
 	margin-bottom: 20px;
 }
@@ -253,9 +254,29 @@ footer .footer_nav_inner a {
 }
 /**********/
 
+/* Contact Page */
+#contact strong {
+	font-weight: normal;
+	margin-bottom: 2px;
+	font-size: 18px;
+}
 
+#contact span {
+	font-weight: bold;
+}
 
+#contact .contact_info {
+	margin-bottom: 40px;
+}
 
+#contact li {
+	padding-bottom: 5px;
+	font-size: 18px;
+}
+
+#contact .contact_map {
+	padding:1.5em;
+}
 
 
 

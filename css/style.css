@@ -249,6 +249,19 @@ footer .footer_nav_inner a {
 	margin-bottom: 20px;
 }
 
+.sidebar a {
+	text-decoration: underline;
+	color: white;
+}
+
+.sidebar a:hover {
+	color: #c6a93a;
+}
+
+.sidebar h2 {
+	color: #fff;
+}
+
 .inner_sidebar_section {
 	padding: 1.5em;
 }
@@ -277,6 +290,45 @@ footer .footer_nav_inner a {
 #contact .contact_map {
 	padding:1.5em;
 }
+/**********/
+
+/* Staff Page */
+#staff_page .staff_pic {
+	margin-top: -24px;
+	margin-bottom: 20px;
+}
+
+#staff_page .dummy_staff_pic {
+	width: 600px;
+	height: 400px;
+	background: #fff;
+	border: 2px solid #c6a93a;
+}
+
+#staff_page h1 {
+	color: #c6a93a;
+	margin-bottom: 2px;
+}
+
+#staff_page .staff_content h2 {
+	color: #c6a93a;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
